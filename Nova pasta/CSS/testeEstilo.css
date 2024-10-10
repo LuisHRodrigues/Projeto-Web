@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #454545;
+
+  overflow: hidden;
+}
+
+.navbar li {
+  display: ruby;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
